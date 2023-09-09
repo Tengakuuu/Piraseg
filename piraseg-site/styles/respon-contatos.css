@@ -13,34 +13,30 @@
     nav > a{
         padding: 0px 10px;
     }
-    #propaganda {
-        width: 99.8%;
-    }
-    .Treinamento > aside {
-        font-size: 15px;
-        width: 66%;
-    }
-    .Treinamento > aside > img {
-        width: 25%;
-        height: 25%;
-    }
-    .left {
-        margin-left: 20%;
-    }
+
     article{
         width: 100%;
+    }
+    #ballon-piraseg {
+        font-size: 15px;
+    }
+    #ballon-user {
+        font-size: 15px;
+    }
+    .left {
+        font-size: 16px;
+        width: 30%;
+        margin-left: 15%;
     }
     #logo-bottom{
         width: 150px;
     }
+
 }
 @media only screen and (max-width:750px){
     #logo > img{
         padding-top: 10px;
         width: 150px;
-    }
-    #propaganda {
-        width: 99.7%;
     }
     nav{
         font-size: 16px;
@@ -48,26 +44,15 @@
     nav > a{
         padding: 0px 2px;
     }
-    /*----treinamento*/
-    .Treinamento > aside {
-        font-size: 15px;
+    .informações {
+        height: 65vh;
     }
-    /*----informações*/
-    #informacoes > h2{
-        font-size: 18px;
-    }
-    #informacoes > p{
-        font-size: 14px;
-    }
-    /*-----CONTATOS----*/
-    .contato {
-        height: 55vh;
-    }
-    .contato > article {
+    .informações > article {
         display: block;
     }
     .left {
-        margin-left: 35%;
+        margin-left: 30%;
+        width: 40%;
     }
     .right {
         margin-left: 22%;
@@ -75,7 +60,14 @@
         border: hidden;
         border-top: 1px solid;
     }
-    /*--- FOOTER ---*/
+    #ballon-piraseg {
+        font-size: 12px;
+        width: 60%;
+    }
+    #ballon-user {
+        font-size: 12px;
+        width: 60%;
+    }
     #bottom{
         display: block;
         text-align: center;
@@ -99,42 +91,24 @@
         display: block;
         margin-left: 170px;
     }
-    #propaganda {
-        width: 99.6%;
+    .informações {
+        height: 65vh;
     }
-    nav{
-        font-size: 16px;
-    }
-    nav > a{
-        padding: 0px 2px;
-    }
-    /*----treinamento*/
-    .Treinamento {
-        height: 40vh;
-    }
-    .Treinamento > aside {
-        font-size: 13px;
-        width: 90%;
-    }
-    .Treinamento > aside > img {
-        width: 17%;
-    }
-    /*----informações*/
-    #informacoes > h2{
-        font-size: 18px;
-    }
-    #informacoes > p{
-        font-size: 14px;
-    }
-    /*-----CONTATOS----*/
-    .contato {
-        height: 55vh;
-    }
-    .contato > article {
+    .informações > article {
         display: block;
     }
+    #ballon-piraseg {
+        font-size: 12px;
+        width: 70%;
+        padding: 10px;
+    }
+    #ballon-user {
+        font-size: 10px;
+        width: 70%;
+        padding: 10px;
+    }
     .left {
-        margin-left: 35%;
+        margin-left: 25%;
     }
     .right {
         margin-left: 10%;

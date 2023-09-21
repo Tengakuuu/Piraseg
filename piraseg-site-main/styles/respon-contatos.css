@@ -1,0 +1,113 @@
+@media only screen and (max-width:1000px){
+    #top{
+        width: 100%;
+    }
+    #bottom{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:930px){
+    article{
+        width: 100%;
+    }
+    #ballon-piraseg1,#ballon-piraseg2,#ballon-piraseg3 {
+        font-size: 15px;
+    }
+    #ballon-user1,#ballon-user2 {
+        font-size: 15px;
+    }
+    .left {
+        font-size: 16px;
+        width: 30%;
+        margin-left: 15%;
+    }
+    #logo-bottom{
+        width: 150px;
+    }
+
+}
+@media only screen and (max-width:750px){
+    .informações {
+        height: 65vh;
+    }
+    .informações > article {
+        display: block;
+    }
+    .left {
+        margin-left: 30%;
+        width: 40%;
+    }
+    .right {
+        margin-left: 20%;
+        width: 50%;
+        border: hidden;
+        border-top: 1px solid;
+    }
+    #ballon-piraseg1,#ballon-piraseg2,#ballon-piraseg3 {
+        font-size: 12px;
+        width: max-content;
+    }
+    #ballon-user1,#ballon-user2 {
+        font-size: 12px;
+        width: max-content;
+    }
+    #bottom{
+        display: block;
+        text-align: center;
+    }
+    #logo-bottom{
+        width: 200px;
+    }
+    #rede, #info, #creditos{
+        width: 100%;        border-right:none; 
+        margin-bottom: 4px;     
+    }
+    #info, #creditos{
+        border-top: 1px solid white;
+    }
+}
+@media only screen and (max-height:475px) {
+    .informações {
+        height: 80vh;
+    }
+}
+@media only screen and (max-height:350px) {
+    .informações {
+        height: 110vh;
+    }
+}
+@media only screen and (max-width:500px){
+    .informações {
+        height: 65vh;
+    }
+    .informações > article {
+        display: block;
+    }
+    #ballon-piraseg1,#ballon-piraseg2,#ballon-piraseg3 {
+        font-size: 12px;
+        width: 70%;
+        padding: 10px;
+    }
+    #ballon-user1,#ballon-user2 {
+        font-size: 10px;
+        width: 70%;
+        padding: 10px;
+    }
+    .left {
+        margin-left: 25%;
+    }
+    .right {
+        margin-left: 2%;
+        width: 80%;
+        border: hidden;
+        border-top: 1px solid;
+    }
+    
+    @media only screen and (max-width:400px)
+    {
+        .right {
+            width: 70%;
+            margin-left: 5%;
+        }
+    }
+}

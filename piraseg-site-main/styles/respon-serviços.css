@@ -1,0 +1,120 @@
+@media only screen and (max-width:1000px){
+    #top{
+        width: 100%;
+    }
+    #bottom{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:930px){
+    #propaganda {
+        width: 99.8%;
+    }
+    .Treinamento > aside {
+        font-size: 15px;
+        width: 66%;
+    }
+    .Treinamento > aside > img {
+        width: 25%;
+        height: 25%;
+    }
+    .left {
+        margin-left: 20%;
+    }
+    article{
+        width: 100%;
+    }
+    #logo-bottom{
+        width: 150px;
+    }
+}
+@media only screen and (max-width:750px){
+
+    #propaganda {
+        width: 99.7%;
+    }
+    /*----treinamento*/
+    .Treinamento > aside {
+        font-size: 15px;
+    }
+    /*----informações*/
+    #informacoes > h2{
+        font-size: 18px;
+    }
+    #informacoes > p{
+        font-size: 14px;
+    }
+    /*-----CONTATOS----*/
+    .contato {
+        height: 55vh;
+    }
+    .contato > article {
+        display: block;
+    }
+    .left {
+        margin-left: 35%;
+    }
+    .right {
+        margin-left: 22%;
+        width: 40%;
+        border: hidden;
+        border-top: 1px solid;
+    }
+}
+@media only screen and (max-height:520px) {
+    .Treinamento {
+        height: 85vh;
+    }
+    .contato {
+        height: 75vh;
+    }
+    
+}
+@media only screen and (max-height:350px) {
+    .Treinamento {
+        height: 100vh;
+    }
+    .contato {
+        height: 95vh;
+    }
+    
+}
+@media only screen and (max-width:500px){
+    #propaganda {
+        width: 99.6%;
+    }
+    /*----treinamento*/
+    .Treinamento {
+        height: 40vh;
+    }
+    .Treinamento > aside {
+        font-size: 13px;
+        width: 90%;
+    }
+    .Treinamento > aside > img {
+        width: 17%;
+    }
+    /*----informações*/
+    #informacoes > h2{
+        font-size: 18px;
+    }
+    #informacoes > p{
+        font-size: 14px;
+    }
+    /*-----CONTATOS----*/
+    .contato {
+        height: 55vh;
+    }
+    .contato > article {
+        display: block;
+    }
+    .left {
+        margin-left: 35%;
+    }
+    .right {
+        margin-left: 10%;
+        width: 70%;
+        border: hidden;
+        border-top: 1px solid;
+    }
+}

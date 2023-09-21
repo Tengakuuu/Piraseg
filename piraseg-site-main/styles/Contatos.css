@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --font-titulos:'Pridi', serif;
+    --font-textos:'Roboto', sans-serif;
+    --cor1:#1DAA47;
+    --cor2:#065064;
+}
+#top1 {
+    font-family: var(--font-titulos);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor2);
+}
+#top1 > h3{
+    font-weight: 400;
+}
+/* ---- informaçõs ----- */
+.informações {
+    background-color: #1DAA47;
+    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.445);
+    color: white;
+    height: 45vh;
+    font-family: var(--font-textos);
+    padding: 10px 0px;
+}
+.informações > h3 {
+    font-weight: 500;
+    font-family: var(--font-titulos);
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.informações > article{
+    display: flex;
+}
+
+.left > div {
+    margin-bottom: 3vh;
+}
+#card_1 {
+    display: flex;
+}
+#card_1 > img {
+    width: 60px;
+    height: 60px;
+    padding: 0px 10px;
+}
+#card_2 {
+    display: flex;
+}
+#card_2 > img {
+    width: 60px;
+    height: 60px;
+    padding: 0px 10px;
+}
+.left {
+    width: 20vw;
+    margin-left: 26%;
+    padding: 0px 70px 0px 0px;
+    padding-top: 30px;
+}
+.right {
+    width: 35vh;
+    margin-right: 10%;
+    height: 22vh;
+    display: flex;
+    padding: 0px 0px 0px 70px;
+    border-left: solid;
+    padding-top: 30px;
+}
+.right > div >img {
+    padding: 20px 10px;
+    width: 50px;
+    display: flex;
+}
+/*------ animação --------*/
+.anim {
+    background-image: linear-gradient(to top,var(--cor2),var(--cor1));
+}
+.anim > aside {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border: 1px solid black;
+}
+/* os balões */
+
+#ballon-piraseg1,#ballon-piraseg2,#ballon-piraseg3 {
+    margin: 2%;
+    width: max-content;
+    color: #ffffff;
+    text-align: center;
+    font-family: var(--font-textos);
+    padding: 20px 50px;
+    background-color: #065064;
+    border: 2px solid #043341;
+    border-radius: 10px;
+}
+
+#ballon-user1,#ballon-user2{
+    margin: 2%;
+    margin-left: auto;
+    width: max-content;
+    color: #ffffff;
+    text-align: center;
+    font-family: var(--font-textos);
+    padding: 20px 50px;
+    background-color:#1DAA47;
+    border: 2px solid #138a36;
+    border-radius: 10px;
+}
+.anim > aside > div > h4 {
+    width: max-content;
+    text-align: left
+}
+.contato > div {
+    margin-bottom: 3vh;
+}
+.contato > div > img {
+    width: 20px;
+    padding: 0px 10px;
+}
+.contato {
+    text-align: left;
+    width: 100%;
+}
+
+#ballon-piraseg1,#ballon-piraseg2,#ballon-piraseg3,#ballon-user1,#ballon-user2{
+    margin-bottom: 50px;
+    visibility: hidden;
+}
+.mark{
+    color: var(--cor1);
+    text-decoration: underline;
+}
+.mark:hover{
+    color: rgb(18, 18, 182);
+}

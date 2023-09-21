@@ -1,0 +1,94 @@
+@media only screen and (max-width:1300px){
+    #box2{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:1000px){
+    #box2{
+        width: 100%;
+    }
+    #novo{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:930px){
+    #propaganda,#box2,#divulgar,article,cursos{
+        width: 100%;
+    }
+    #logo-bottom{
+        width: 150px;
+    }
+}
+@media only screen and (max-width:750px){
+    #texto{
+        width: 100%;
+    }
+    .titulo{
+        font-size: 17px;
+    }
+    .sub-titulo{
+        font-size: 14px;
+    }
+    #imagem > img{
+        display: none;
+    }
+    #novo{
+        width: 90%;
+    }
+    #novo > p{
+        font-size: 18px;
+    }
+    #divulgar > h1{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    #video{
+        margin-bottom: 15px;
+    }
+    #video > video{
+        width: 380px;
+    }
+    .icons > img{
+        width: 50px;
+    }
+    .icons > p{
+        font-size: 14px;
+    }
+    #b1,#b2{
+        padding: 4px 20px;
+        font-size: 14px;
+    }
+    #b1:hover,#b2:hover{
+        padding: 6px 30px;
+    }
+    #b1{
+        margin-right: 10px;
+    }
+    #b2{
+        margin-left: 10px;
+    }
+    #informacoes > h2{
+        font-size: 18px;
+    }
+    #informacoes > p{
+        font-size: 14px;
+    }
+    #cursos > h2{
+        font-size: 18px;
+    }
+    .conteudo > p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:500px){
+    #novo{
+        width: 95%;
+    }
+    .cards{
+        margin-left: 20px;
+        max-width: 170px;
+    }
+    .cards > img{
+        width: 170px;
+    }
+}
